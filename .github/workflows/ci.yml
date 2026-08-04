@@ -18,4 +18,4 @@ jobs:
 
       - run: bundle exec srb tc
 
-      - run: ruby lib/sample.rb
+      - run: bundle exec ruby lib/sample.rb
