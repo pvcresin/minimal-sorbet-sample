@@ -5,6 +5,6 @@ Of course, the [Sorbet Playground](https://sorbet.run/) is also useful.
 
 - `bundle`
 - `bundle exec srb tc`
-- `ruby lib/sample.rb`
+- `bundle exec ruby lib/sample.rb`
 
 ![](screenshot.png)
