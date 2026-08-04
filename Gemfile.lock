@@ -1,23 +1,25 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    sorbet (0.5.12152)
-      sorbet-static (= 0.5.12152)
-    sorbet-runtime (0.5.12152)
-    sorbet-static (0.5.12152-aarch64-linux)
-    sorbet-static (0.5.12152-universal-darwin)
-    sorbet-static (0.5.12152-x86_64-linux)
-    sorbet-static-and-runtime (0.5.12152)
-      sorbet (= 0.5.12152)
-      sorbet-runtime (= 0.5.12152)
+    sorbet (0.6.13398)
+      sorbet-static (= 0.6.13398)
+    sorbet-runtime (0.6.13398)
+    sorbet-static (0.6.13398-universal-darwin)
+    sorbet-static-and-runtime (0.6.13398)
+      sorbet (= 0.6.13398)
+      sorbet-runtime (= 0.6.13398)
 
 PLATFORMS
-  aarch64-linux
   universal-darwin
-  x86_64-linux
 
 DEPENDENCIES
   sorbet-static-and-runtime
 
+CHECKSUMS
+  sorbet (0.6.13398) sha256=83c557a66756d0bd2e9dcda86b03921983eb7573fd2c76aa503d262c1988b8ec
+  sorbet-runtime (0.6.13398) sha256=0db05c219e366bb6c86ba3d435589188798eeaa857243649a869a71116e92cf3
+  sorbet-static (0.6.13398-universal-darwin) sha256=2707c8cd2b60adb3a6a3023f6108b5f4781bfb028c0b7f18a7c996303a07036c
+  sorbet-static-and-runtime (0.6.13398) sha256=5758db0dd0fede9f376544768a0d4b818c179a47bf92239dab8206519c4190fd
+
 BUNDLED WITH
-   2.6.9
+  4.0.6
